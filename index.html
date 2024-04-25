@@ -149,7 +149,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Large language models (LLMs) have revolutionized the programming and development of embodied intelligence. In this paradigm, LLMs translate complex tasks described in abstract language into a sequence of code snippets. The embodied agent subsequently interacts with the environment to solve these tasks, with the execution logic guided by the programs and the orchestration of operation calls (\eg, perception modules). However, exploiting untrusted third-party LLMs poses considerable security risks. This paper introduces BackdoorChain, which for the first time identifies a severe chain of backdoor threats in this practical scenario. By presenting a few shots of poisoned demonstrations, adversaries can clandestinely infect a black-box LLM, prompting it to generate programs with backdoor defects. These malicious programs, supplied by LLMs to downstream users, will be activated and compromise the reliability of the operational agent when specific visual triggers appear. Originating from a few shots of stealthy demonstrations, our attack progresses from LLM to the generated code until infiltrating the intelligent system, thus establishing a chain of backdoors that could have serious consequences for millions of downstream embodied agents. To achieve the goal, we employ an additional LLM for poisoned demonstration prompt generation and treat the optimization process as a two-player game between the discriminator and generator LLMs, where the optimized poisoned prompts fed to the generator could output programs with accurate defects that are realistic enough output to fool the discriminator. To comprehensively explore the potential risks, we broaden the attack and devise five program defects attacking modes compromising the key aspects of confidentiality, integrity, and availability of the embodied agents. To validate the effectiveness, we conducted extensive experiments on a range of tasks including robot planning, robot manipulation, and compositional visual reasoning. Additionally, we showcase the potential of our approach and successfully attack real-world autonomous driving systems. This paper aims to raise awareness of the potential threats of backdoors for embodied intelligence in practical LLM usage scenarios involving code.
           </p>
         </div>
       </div>
@@ -166,9 +166,9 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/frontpage-2.pdf" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          First image description.
+          Illustration of the chain of backdoor attacks to code-driven embodied agents. We propose BackdoorChain to induce LLMs to generate malicious programs with backdoors, which can be activated by visual triggers resulting in targeted behaviors for downstream agents.
         </h2>
       </div>
       <div class="item">
